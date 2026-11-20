@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-oxblood: #160509;
+  --color-oxblood-elevated: #23090F;
+  --color-burgundy-card: #3E0D18;
+  --color-burgundy-deep: #2A0710;
+  --color-blush: #EBC8C3;
+  --color-blush-light: #F7E5E2;
+  --color-blush-muted: #C8A6A2;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background-color: #160509;
+    color: #F7E5E2;
+    font-family: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+  h1, h2, .font-display {
+    font-family: "Cormorant Garamond", Georgia, serif;
+  }
+
+  ::selection {
+    background-color: #EBC8C3;
+    color: #160509;
+  }
+}
