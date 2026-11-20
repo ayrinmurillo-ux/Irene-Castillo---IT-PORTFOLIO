@@ -4,11 +4,8 @@ import fs from 'fs';
 import path from 'path';
 import {defineConfig} from 'vite';
 
- export default defineConfig(() => {
+export default defineConfig(() => {
   return {
-    base: process.env.GITHUB_PAGES === 'true'
-      ? '/it-portfolio/'
-      : '/',
     plugins: [
       react(),
       tailwindcss(),
