@@ -61,7 +61,7 @@ export const DEFAULT_PROFILE: PersonalProfile = {
   availability: 'Open for IT Internships & Web Projects',
   email: 'ayrinmurillo@gmail.com',
   bio: 'I am an Information Technology student passionate about creating simple, aesthetic, and responsive web applications. I enjoy combining structured code with calm visual hierarchy so every interface feels clear, personal, and effortless to navigate.',
-  heroImage: '/assets/aistudio/dceea642-9127-4622-8c54-0547b3c6ea24_900a75f0.jfif',
+  heroImage: `${import.meta.env.BASE_URL}assets/aistudio/dceea642-9127-4622-8c54-0547b3c6ea24_900a75f0.jfif`,
   heroImageAlt: 'Portrait photo of Irene Castillo in formal attire',
   educationBackground: [
     {
@@ -177,7 +177,7 @@ export const PROJECTS_DATA: ProjectItem[] = [
       'Built order tracking functionality powered by PHP and MySQL so customers can follow their order status in real time.',
     ],
     tools: ['PHP', 'HTML5', 'CSS3', 'JavaScript', 'MySQL'],
-    screenshot: '/assets/aistudio/Screenshot_2026-11-20_085828_7ac8ae3d.png',
+    screenshot: `${import.meta.env.BASE_URL}assets/aistudio/Screenshot_2026-11-20_085828_7ac8ae3d.png`,
     screenshotAlt:
       'Cozy Corner Cafe Web-based Ordering System menu page showing iced coffee drinks like Americano, Classic Cappuccino, Cozy Caramel Latte, and Iced Spanish Latte',
     imageFit: 'cover',
@@ -200,7 +200,7 @@ export const PROJECTS_DATA: ProjectItem[] = [
       'Linked interactive screens into a clickable smart-device prototype in Figma for seamless user flow testing.',
     ],
     tools: ['Figma', 'Mobile UI/UX', 'Interactive Prototyping', 'Smart Devices'],
-    screenshot: '/assets/aistudio/Screenshot_2026-11-20_090248_33a6401a.png',
+    screenshot: `${import.meta.env.BASE_URL}assets/aistudio/Screenshot_2026-11-20_090248_33a6401a.png`,
     screenshotAlt:
       'LIKHA CCC Interactive Memory-Sharing App mobile screen mockup showing the For You feed, event tag, media post, and bottom navigation bar',
     imageFit: 'contain',
